@@ -1,0 +1,257 @@
+
+h2{
+  font-size: 1.5rem;
+}
+
+h3 {
+  padding-top: 7px;
+  height: 45px;
+}
+p.break {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  border-top: thin solid silver;
+  color: rgb(128, 128, 128);
+}
+
+.tab-content {
+  margin-top: 8px;
+}
+
+
+strong.navTab {
+  color: #1D7898
+}
+/*#nav-notes-tab{*/
+/*  background-color: #66B5D1;*/
+/*}*/
+
+
+tei-byline {
+  display: block;
+  text-align: center;
+}
+tei-closer {
+  display: block;
+}
+tei-closer>tei-salute {
+  display: block;
+}
+tei-closer>tei-signed {
+  display: block;
+  text-align: right;
+}
+tei-div {
+  display: block;
+}
+tei-div[type=dedication]>tei-lg {
+  margin: auto;
+  text-align: center;
+}
+tei-docauthor {
+  display: block;
+  text-align: center;
+}
+tei-docauthor>tei-name {
+  display: block;
+  font-size: 2em;
+}
+tei-docimprint {
+  display: block;
+  margin-top: 10em;
+  text-align: center;
+}
+tei-doctitle>tei-titlepart {
+  display: block;
+  text-align: center;
+}
+tei-doctitle>tei-titlepart[type=main] {
+  font-size: 3em;
+}
+tei-doctitle>tei-titlepart[type=subtitle] {
+  font-size: 2em;
+}
+emph {
+  font-style: italic;
+}
+tei-figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+tei-figure>tei-p {
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+tei-hi[rend=italics] {
+  font-style: italic;
+}
+
+tei-label {
+  color: #BE4D25;
+}
+tei-l {
+  display: block;
+}
+tei-lg {
+  display: block;
+  margin-left: 5em;
+}
+tei-list[type=simple] {
+  list-style-type: none;
+}
+tei-list[type=simple]>tei-item {
+  display: list-item;
+}
+tei-p {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  text-align: justify;
+}
+tei-tei {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+tei-title[type=main]{
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+  color: #4771B5;
+  display: block;
+}
+
+tei-title[type=sub] {
+  font-size: 1.2rem;
+  color: #BE4D25;
+  margin-bottom: 7px;
+  display: block;
+}
+
+tei-author{
+  font-weight:bold;
+  /*background-color: #dad5d5;*/
+  display: block;
+}
+
+tei-resp{
+  color: black;
+  display: block;
+}
+
+tei-forename {
+  margin-top: 20px;
+  color: #0aaeb3;
+}
+
+tei-surname {
+  margin-top: 20px;
+  color: #0aaeb3;
+}
+
+
+/*tei-persname {*/
+/*    color: #0aaeb3;*/
+/*}*/
+
+tei-rolename {
+  border-radius: 4px;
+  border-color: #DCDCDC;
+  color: black;
+  margin-bottom: 5px;
+}
+
+tei-witness {
+  color: #1D7898;
+  margin-bottom: 50px;
+}
+
+tei-origplace {
+  border: 1px solid #BE4D25;
+  margin: 5px auto;
+}
+
+tei-text {
+  display: block;
+  line-height: 1.6;
+  /*position:fixed;*/
+  width: 100%;
+  overflow: auto;
+}
+
+tei-titlepage {
+  display: block;
+}
+tei-app tei-rdg{
+	margin-left:7px;
+	margin-right:7px;
+	/*color:rgb(229, 147, 147);*/
+	/*border:solid 1px black;*/
+}
+
+tei-app tei-lem{
+	color: #000000;
+}
+tei-choice tei-sic{
+	color: #be4d25;
+    display: inline;
+}
+
+tei-sic{
+	color: #000000;
+    display: inline;
+}
+
+span.xcc-wit-tag-lem {
+  display: none;
+}
+
+/*[data-lem-empty='1']{*/
+/*  display: none;*/
+/*}*/
+
+span.xcc-wit-tag-rdg {
+  display: none;
+}
+/*tei-app tei-lem:after{ content: "LEM"; } l'ensenya sempre*/
+/*tei-app tei-lem:after{
+    padding: 2px;
+    display:none;
+    position: relative;
+    top: 1px;
+    right: -3px;
+    width: 49px;
+    text-align: center;
+    background-color: #fef4c5;
+    border: 1px solid #d4b943;
+    border-radius: 2px;
+}
+tei-app tei-lem:hover:after{ display: inline; }
+tei-app tei-lem:after{ content: "Lem:" attr(wit); }*/
+
+#info-box-right{
+  margin:5px;
+  padding:5px;
+  background-color: #A0D0DE;
+  /*width: 170px;*/
+  height: 110px;
+  overflow: auto;
+  text-align:left;
+}
+
+
+#legendeinfobox{
+  margin:5px;
+  padding:5px;
+  background-color: #A0D0DE;
+  width: 200px;
+  height: 377px;
+  overflow: auto;
+  text-align:left;
+}
+
+.lexedithtml{
+  overflow: auto;
+  position:relative;
+}
